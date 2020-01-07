@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  /* width: 100%; */
+}
+li> a> img {
+  display: inline-block; */
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid #CCCCCC;
+}
+
+.authors img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.image-number {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+li {
+  float: left;
+}
