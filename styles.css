@@ -33,12 +33,15 @@ img {
 }
 .image-caption {
   text-align: right;
+  position: relative;
+  top: -15px;
 }
 .image-footer {
   border-bottom: 1px solid #CCCCCC;
 }
 
 ul {
+  display: inline-block;
   list-style: none;
 }
 
