@@ -27,17 +27,35 @@ img {
   display: inline-block;
   width: 30px;
   height: 30px;
-  padding: 5px;
+  padding: 1px;
   border-style: none;
   border-radius: 10px;
 }
+
 .image-caption {
   text-align: right;
   position: relative;
   top: -15px;
 }
+
+.image-caption > a {
+  position: relative;
+  top: -10px;
+}
+
+.image-caption > span {
+  position: relative;
+  top: -10px
+}
+
+.image-number {
+  position: relative;
+  top: 10px;
+}
+
 .image-footer {
   border-bottom: 1px solid #CCCCCC;
+  height: 40px;
 }
 
 ul {
