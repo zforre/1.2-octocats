@@ -21,6 +21,7 @@ img {
   border: 1px solid #CCCCCC;
   border-radius: 2px;
 }
+.octocat img::after {}
 
 /* higher specificity */
 .authors img {
@@ -51,6 +52,9 @@ img {
 .image-number {
   position: relative;
   top: 10px;
+}
+.image-number::before {
+  content: "#";
 }
 
 .image-footer {
